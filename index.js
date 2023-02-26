@@ -7,6 +7,7 @@ const closeModalBtn = document.querySelector(".btn-close");
 //event listener
 showModalBtn.addEventListener("click", showModal);
 closeModalBtn.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
 
 //functions
 function showModal () {
